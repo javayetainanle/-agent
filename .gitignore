@@ -1,0 +1,32 @@
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# Build outputs
+target/
+out/
+*.class
+
+# Runtime / local data
+files/
+logs/
+*.log
+
+# Frontend local outputs
+doc/backend/zzylai-frontend/node_modules/
+doc/backend/zzylai-frontend/dist/
+doc/backend/zzylai-frontend/.vite/
+
+# WeChat / local project configs
+project.config.json
+project.private.config.json
+doc/*.zip
+doc/*.sql
+*.lst
+*.tmp
+*.bak
+
+# OS files
+.DS_Store
+Thumbs.db
